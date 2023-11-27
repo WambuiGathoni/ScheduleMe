@@ -1,0 +1,30 @@
+trainFile = /Users/jacklinewambui/Desktop/finalProject/CS72 Project_Emails_training_dataset_StanfordNER.tsv
+
+serializeTo = /Users/jacklinewambui/Desktop/finalProject/ner-model.ser.gz
+
+map = word=0,answer=1
+
+
+
+maxLeft=1
+
+useClassFeature=true
+useWord=true 
+useNGrams=true
+useWordTag=true
+useWordPairs=true
+useShapeConjunctions=True
+useSymTags=True
+useGazettes=true
+noMidNGrams=true
+usePrev=true
+useNext=true
+useDisjunctive=true
+useSequences=true
+usePrevSequences=true
+useOccurrencePatterns=true
+useTypeSeqs=true
+useTypeSeqs2=true
+useTypeySequences=true
+wordShape=chris2useLC
+
